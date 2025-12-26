@@ -23,11 +23,12 @@ The blank screen issue was caused by **incorrect base path configuration**. GitH
    git push origin main  # or master
    ```
 
-2. **Enable GitHub Pages:**
-   - Go to your repository on GitHub
+2. **Enable GitHub Pages (REQUIRED - Do this first!):**
+   - Go to your repository on GitHub: https://github.com/sfoubusgit/sdpromptgenerator_v2
    - Click **Settings** → **Pages**
-   - Under **Source**, select **GitHub Actions** (not "Deploy from a branch")
-   - Save
+   - Under **"Build and deployment"** → **"Source"**, select **"GitHub Actions"** (NOT "Deploy from a branch")
+   - Click **Save**
+   - ⚠️ **Important**: Without this step, the workflow will fail with "Pages site not found" error
 
 3. **The workflow will automatically:**
    - Build your site with the correct base path (your repository name)
