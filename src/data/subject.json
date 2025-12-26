@@ -1,0 +1,782 @@
+{
+  "category": "subject",
+  "attributes": [
+    {
+      "id": "subject:person-man",
+      "baseText": "man",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-woman",
+      "baseText": "woman",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-child",
+      "baseText": "child",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-teenager",
+      "baseText": "teenager",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-adult",
+      "baseText": "adult",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-elderly",
+      "baseText": "elderly person",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-athlete",
+      "baseText": "athlete",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-soldier",
+      "baseText": "soldier",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-knight",
+      "baseText": "knight",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-farmer",
+      "baseText": "farmer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-worker",
+      "baseText": "worker",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-artist",
+      "baseText": "artist",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-musician",
+      "baseText": "musician",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-dancer",
+      "baseText": "dancer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-scientist",
+      "baseText": "scientist",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-doctor",
+      "baseText": "doctor",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-engineer",
+      "baseText": "engineer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-explorer",
+      "baseText": "explorer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-traveler",
+      "baseText": "traveler",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:person-leader",
+      "baseText": "leader",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-dog",
+      "baseText": "dog",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-cat",
+      "baseText": "cat",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-wild-animal",
+      "baseText": "wild animal",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-horse",
+      "baseText": "horse",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-cow",
+      "baseText": "cow",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-elephant",
+      "baseText": "elephant",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-lion",
+      "baseText": "lion",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-tiger",
+      "baseText": "tiger",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-bear",
+      "baseText": "bear",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-wolf",
+      "baseText": "wolf",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-fox",
+      "baseText": "fox",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-deer",
+      "baseText": "deer",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-rabbit",
+      "baseText": "rabbit",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-monkey",
+      "baseText": "monkey",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-giraffe",
+      "baseText": "giraffe",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-zebra",
+      "baseText": "zebra",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-kangaroo",
+      "baseText": "kangaroo",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-dolphin",
+      "baseText": "dolphin",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-whale",
+      "baseText": "whale",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-eagle",
+      "baseText": "eagle",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:animal-owl",
+      "baseText": "owl",
+      "semanticPriority": 95,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-fantasy",
+      "baseText": "fantasy character",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-sci-fi",
+      "baseText": "science fiction character",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-realistic",
+      "baseText": "realistic human character",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-warrior",
+      "baseText": "warrior",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-knight",
+      "baseText": "knight",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-mage",
+      "baseText": "mage",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-wizard",
+      "baseText": "wizard",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-sorceress",
+      "baseText": "sorceress",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-archer",
+      "baseText": "archer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-assassin",
+      "baseText": "assassin",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-rogue",
+      "baseText": "rogue",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-paladin",
+      "baseText": "paladin",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-barbarian",
+      "baseText": "barbarian",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-samurai",
+      "baseText": "samurai",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-ninja",
+      "baseText": "ninja",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-viking",
+      "baseText": "viking",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-pirate",
+      "baseText": "pirate",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-explorer",
+      "baseText": "explorer",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-scientist",
+      "baseText": "scientist",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-cyborg",
+      "baseText": "cyborg",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-alien",
+      "baseText": "alien",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-robot",
+      "baseText": "robot",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:character-superhero",
+      "baseText": "superhero",
+      "semanticPriority": 100,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-dragon",
+      "baseText": "dragon",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-alien",
+      "baseText": "alien creature",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-griffin",
+      "baseText": "griffin",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-phoenix",
+      "baseText": "phoenix",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-unicorn",
+      "baseText": "unicorn",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-hydra",
+      "baseText": "hydra",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-kraken",
+      "baseText": "kraken",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-wyvern",
+      "baseText": "wyvern",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-basilisk",
+      "baseText": "basilisk",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-chimera",
+      "baseText": "chimera",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-minotaur",
+      "baseText": "minotaur",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-centaur",
+      "baseText": "centaur",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-werewolf",
+      "baseText": "werewolf",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-vampire",
+      "baseText": "vampire",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-demon",
+      "baseText": "demon",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-angel",
+      "baseText": "angel",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-fairy",
+      "baseText": "fairy",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-troll",
+      "baseText": "troll",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-giant",
+      "baseText": "giant",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-goblin",
+      "baseText": "goblin",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:creature-ogre",
+      "baseText": "ogre",
+      "semanticPriority": 98,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-vehicle",
+      "baseText": "vehicle",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-building",
+      "baseText": "building",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-sword",
+      "baseText": "sword",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-shield",
+      "baseText": "shield",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-bow",
+      "baseText": "bow",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-arrow",
+      "baseText": "arrow",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-helmet",
+      "baseText": "helmet",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-armor",
+      "baseText": "armor",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-crown",
+      "baseText": "crown",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-book",
+      "baseText": "book",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-scroll",
+      "baseText": "scroll",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-lantern",
+      "baseText": "lantern",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-key",
+      "baseText": "key",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-chest",
+      "baseText": "chest",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-mirror",
+      "baseText": "mirror",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-ring",
+      "baseText": "ring",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-necklace",
+      "baseText": "necklace",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-staff",
+      "baseText": "staff",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-wand",
+      "baseText": "wand",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-backpack",
+      "baseText": "backpack",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-chair",
+      "baseText": "chair",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:object-table",
+      "baseText": "table",
+      "semanticPriority": 90,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:count-single",
+      "baseText": "single subject",
+      "semanticPriority": 110,
+      "isNegative": false,
+      "conflictsWith": ["subject:count-multiple"]
+    },
+    {
+      "id": "subject:count-multiple",
+      "baseText": "multiple subjects",
+      "semanticPriority": 110,
+      "isNegative": false,
+      "conflictsWith": ["subject:count-single"]
+    },
+    {
+      "id": "subject:anatomy-deformed",
+      "baseText": "deformed anatomy",
+      "semanticPriority": 120,
+      "isNegative": true,
+      "conflictsWith": []
+    },
+    {
+      "id": "subject:extra-limbs",
+      "baseText": "extra limbs",
+      "semanticPriority": 120,
+      "isNegative": true,
+      "conflictsWith": []
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "category": "camera",
+  "attributes": [
+    {
+      "id": "camera:lens-wide-angle",
+      "baseText": "wide-angle lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-ultra-wide-angle",
+      "baseText": "ultra wide-angle lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-standard",
+      "baseText": "standard lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-telephoto",
+      "baseText": "telephoto lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-super-telephoto",
+      "baseText": "super telephoto lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-macro",
+      "baseText": "macro lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-prime",
+      "baseText": "prime lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-zoom",
+      "baseText": "zoom lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-fisheye",
+      "baseText": "fisheye lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-tilt-shift",
+      "baseText": "tilt-shift lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-cinema",
+      "baseText": "cinema lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-portrait",
+      "baseText": "portrait lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-pancake",
+      "baseText": "pancake lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-anamorphic",
+      "baseText": "anamorphic lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-soft-focus",
+      "baseText": "soft focus lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-infrared",
+      "baseText": "infrared lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-vintage",
+      "baseText": "vintage lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-variable-aperture",
+      "baseText": "variable aperture lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-fixed-aperture",
+      "baseText": "fixed aperture lens",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:lens-specialty-effect",
+      "baseText": "specialty effect lens",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-shallow",
+      "baseText": "shallow depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-very-shallow",
+      "baseText": "very shallow depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-deep",
+      "baseText": "deep depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-very-deep",
+      "baseText": "very deep depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-medium",
+      "baseText": "medium depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-selective-focus",
+      "baseText": "selective focus",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-background-blur",
+      "baseText": "background blur",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-foreground-blur",
+      "baseText": "foreground blur",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-creamy-bokeh",
+      "baseText": "creamy bokeh depth",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-smooth-focus-falloff",
+      "baseText": "smooth focus falloff",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-sharp-foreground",
+      "baseText": "sharp foreground, blurred background",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-blurred-foreground",
+      "baseText": "blurred foreground, sharp background",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-split-focus",
+      "baseText": "split focus",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-focus-stacking",
+      "baseText": "focus stacking",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-tilt-shift",
+      "baseText": "tilt-shift depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-miniature",
+      "baseText": "miniature depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-hyperfocal",
+      "baseText": "hyperfocal depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-cinematic",
+      "baseText": "cinematic depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-portrait",
+      "baseText": "portrait depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:dof-landscape",
+      "baseText": "landscape depth of field",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-handheld",
+      "baseText": "handheld camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-steady-handheld",
+      "baseText": "steady handheld",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-shaky-handheld",
+      "baseText": "shaky handheld",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-tripod",
+      "baseText": "tripod mounted",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-monopod",
+      "baseText": "monopod",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-gimbal",
+      "baseText": "gimbal stabilized",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-shoulder-rig",
+      "baseText": "shoulder rig",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-steadicam",
+      "baseText": "steadicam",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-dolly",
+      "baseText": "dolly mounted",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-crane",
+      "baseText": "crane / jib mounted",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-slider",
+      "baseText": "slider mounted",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-static",
+      "baseText": "static camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-locked-off",
+      "baseText": "locked-off shot",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-floating",
+      "baseText": "floating camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-drone",
+      "baseText": "drone stabilized",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-vehicle",
+      "baseText": "vehicle mounted camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-helmet",
+      "baseText": "helmet mounted camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-body",
+      "baseText": "body mounted camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-surveillance",
+      "baseText": "surveillance camera stability",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:stability-fixed-security",
+      "baseText": "fixed security camera",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-long",
+      "baseText": "long exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-short",
+      "baseText": "short exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-double",
+      "baseText": "double exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-multiple",
+      "baseText": "multiple exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-overexposed",
+      "baseText": "overexposed",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-underexposed",
+      "baseText": "underexposed",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-balanced",
+      "baseText": "balanced exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-blur",
+      "baseText": "motion blur",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-freeze",
+      "baseText": "freeze motion",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-light-trails",
+      "baseText": "light trails",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-timelapse",
+      "baseText": "time-lapse exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-slow-shutter",
+      "baseText": "slow shutter motion",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-fast-shutter",
+      "baseText": "fast shutter motion",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-camera-shake",
+      "baseText": "camera shake",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-panning",
+      "baseText": "panning motion blur",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:motion-zoom-blur",
+      "baseText": "zoom blur",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-bracketing",
+      "baseText": "exposure bracketing",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-hdr",
+      "baseText": "high dynamic range exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-low-light",
+      "baseText": "low-light exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:exposure-high-speed",
+      "baseText": "high-speed exposure",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-tilt-shift",
+      "baseText": "tilt-shift technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-focus-stacking",
+      "baseText": "focus stacking",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-double-exposure",
+      "baseText": "double exposure technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-long-exposure",
+      "baseText": "long exposure technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-timelapse",
+      "baseText": "time-lapse technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-hyperlapse",
+      "baseText": "hyperlapse technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-light-painting",
+      "baseText": "light painting",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-infrared",
+      "baseText": "infrared photography",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-high-speed",
+      "baseText": "high-speed photography",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-slow-motion",
+      "baseText": "slow motion capture",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-forced-perspective",
+      "baseText": "forced perspective",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-miniature",
+      "baseText": "miniature effect",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-hdr-blending",
+      "baseText": "HDR blending",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-photobashing",
+      "baseText": "photobashing technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-matte-painting",
+      "baseText": "matte painting technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-motion-control",
+      "baseText": "motion control photography",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-bullet-time",
+      "baseText": "bullet time effect",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-anamorphic-squeeze",
+      "baseText": "anamorphic squeeze technique",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-projection-mapping",
+      "baseText": "projection mapping",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:special-computational",
+      "baseText": "computational photography",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "camera:artifact-lens-distortion",
+      "baseText": "lens distortion",
+      "semanticPriority": 120,
+      "isNegative": true,
+      "conflictsWith": []
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+/**
+ * App-level Layout Styles
+ * 
+ * Uses global design token CSS variables.
+ * Deliberate, calm layout that emphasizes the prompt canvas.
+ */
+
+/* Global Focus Styles */
+:focus {
+  outline: none;
+}
+
+/* Focus-visible styles for keyboard navigation */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible {
+  outline: var(--border-width-thin) solid var(--accent-primary);
+  outline-offset: var(--spacing-2);
+  border-radius: var(--radius-sm);
+}
+
+/* Disabled elements must not receive focus-visible styling */
+.disabled:focus-visible,
+[disabled]:focus-visible {
+  outline: none;
+}
+
+/* Range input focus-visible styling */
+input[type="range"]:focus-visible::-webkit-slider-thumb {
+  background: var(--accent-primary-hover);
+}
+
+input[type="range"]:focus-visible::-moz-range-thumb {
+  background: var(--accent-primary-hover);
+}
+
+input[type="range"][disabled]:focus-visible::-webkit-slider-thumb {
+  background: var(--text-muted);
+}
+
+input[type="range"][disabled]:focus-visible::-moz-range-thumb {
+  background: var(--text-muted);
+}
+
+/* Layout Styles */
+.app-root {
+  min-height: 100vh;
+  padding: 0;
+  background: #0F0F12;
+}
+
+.interview-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.interview-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 32px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 32px;
+  min-height: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: 32px;
+  align-self: start;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+
+/* Scrollbar styling for sidebar */
+.app-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.app-sidebar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.app-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(110, 86, 249, 0.3);
+  border-radius: 3px;
+}
+
+.app-sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(110, 86, 249, 0.5);
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.app-error-state {
+  padding: 40px;
+  text-align: center;
+  background: #1A1A1F;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.app-error-state p {
+  font-size: 15px;
+  color: #B0B0C3;
+  margin: 0 0 24px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-error-state button {
+  padding: 14px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #6E56F9;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app-error-state button:hover {
+  background: #7B65FF;
+  box-shadow: 0 4px 16px rgba(110, 86, 249, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1200px) {
+  .interview-container {
+    grid-template-columns: 1fr;
+  }
+
+  .app-sidebar {
+    order: -1;
+    position: relative;
+    top: 0;
+    max-height: none;
+  }
+}
+

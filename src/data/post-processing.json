@@ -1,0 +1,860 @@
+{
+  "category": "post-processing",
+  "attributes": [
+    {
+      "id": "post-processing:color-warm",
+      "baseText": "warm color tones",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-cool",
+      "baseText": "cool color tones",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-neutral",
+      "baseText": "neutral tones",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-vibrant",
+      "baseText": "vibrant colors",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-muted",
+      "baseText": "muted colors",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-saturated",
+      "baseText": "saturated colors",
+      "semanticPriority": 73,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-desaturated",
+      "baseText": "desaturated colors",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-pastel",
+      "baseText": "pastel tones",
+      "semanticPriority": 67,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-earth",
+      "baseText": "earth tones",
+      "semanticPriority": 69,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-monochrome",
+      "baseText": "monochrome tones",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-high-contrast",
+      "baseText": "high-contrast tones",
+      "semanticPriority": 74,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-low-contrast",
+      "baseText": "low-contrast tones",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-dark",
+      "baseText": "dark tones",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-bright",
+      "baseText": "bright tones",
+      "semanticPriority": 76,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-soft-tonal",
+      "baseText": "soft tonal range",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-rich-depth",
+      "baseText": "rich color depth",
+      "semanticPriority": 77,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-flat",
+      "baseText": "flat color tones",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-cinematic",
+      "baseText": "cinematic color tones",
+      "semanticPriority": 78,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-natural",
+      "baseText": "natural color tones",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-stylized",
+      "baseText": "stylized color tones",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-high",
+      "baseText": "high contrast",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-very-high",
+      "baseText": "very high contrast",
+      "semanticPriority": 78,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-extreme",
+      "baseText": "extreme contrast",
+      "semanticPriority": 80,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-medium",
+      "baseText": "medium contrast",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-balanced",
+      "baseText": "balanced contrast",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-low",
+      "baseText": "low contrast",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-very-low",
+      "baseText": "very low contrast",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-soft",
+      "baseText": "soft contrast",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-flat",
+      "baseText": "flat contrast",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-punchy",
+      "baseText": "punchy contrast",
+      "semanticPriority": 77,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-wide-dynamic",
+      "baseText": "wide dynamic range",
+      "semanticPriority": 76,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-narrow-dynamic",
+      "baseText": "narrow dynamic range",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-hdr",
+      "baseText": "high dynamic range (HDR)",
+      "semanticPriority": 79,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-expanded-tonal",
+      "baseText": "expanded tonal range",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-compressed-tonal",
+      "baseText": "compressed tonal range",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-deep-shadows",
+      "baseText": "deep shadows",
+      "semanticPriority": 73,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-lifted-shadows",
+      "baseText": "lifted shadows",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-bright-highlights",
+      "baseText": "bright highlights",
+      "semanticPriority": 74,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-soft-highlights",
+      "baseText": "soft highlights",
+      "semanticPriority": 69,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:contrast-balanced-tonal",
+      "baseText": "balanced tonal range",
+      "semanticPriority": 71,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-enhanced",
+      "baseText": "enhanced sharpness",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-ultra",
+      "baseText": "ultra sharp",
+      "semanticPriority": 80,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-edge-enhancement",
+      "baseText": "edge enhancement",
+      "semanticPriority": 76,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-detail-enhancement",
+      "baseText": "detail enhancement",
+      "semanticPriority": 77,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-micro-contrast",
+      "baseText": "micro-contrast enhancement",
+      "semanticPriority": 75,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-clarity-boost",
+      "baseText": "clarity boost",
+      "semanticPriority": 74,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-texture-enhancement",
+      "baseText": "texture enhancement",
+      "semanticPriority": 73,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-high-clarity",
+      "baseText": "high clarity",
+      "semanticPriority": 78,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-moderate",
+      "baseText": "moderate sharpening",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-subtle",
+      "baseText": "subtle sharpening",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-over-sharpened",
+      "baseText": "over-sharpened",
+      "semanticPriority": 20,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-softened-edges",
+      "baseText": "softened edges",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-detail-smoothing",
+      "baseText": "detail smoothing",
+      "semanticPriority": 58,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-noise-reduction",
+      "baseText": "noise reduction",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-high-frequency",
+      "baseText": "high-frequency enhancement",
+      "semanticPriority": 76,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-local-contrast",
+      "baseText": "local contrast enhancement",
+      "semanticPriority": 74,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-image-sharpening",
+      "baseText": "image sharpening",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-selective",
+      "baseText": "selective sharpening",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-detail-clarity",
+      "baseText": "detail clarity enhancement",
+      "semanticPriority": 77,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:sharpness-precision",
+      "baseText": "precision sharpening",
+      "semanticPriority": 79,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-bloom",
+      "baseText": "bloom",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-glow",
+      "baseText": "glow effect",
+      "semanticPriority": 67,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-light-haze",
+      "baseText": "light haze overlay",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-mist-overlay",
+      "baseText": "atmospheric mist overlay",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-soft-fog",
+      "baseText": "soft fog overlay",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-vignette",
+      "baseText": "vignette",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-dark-vignette",
+      "baseText": "dark vignette",
+      "semanticPriority": 58,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-film-grain-overlay",
+      "baseText": "film grain overlay",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-subtle-noise",
+      "baseText": "subtle noise overlay",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-color-bleed",
+      "baseText": "color bleed",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-light-leak",
+      "baseText": "light leak effect",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-lens-dirt",
+      "baseText": "lens dirt overlay",
+      "semanticPriority": 59,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-dust-overlay",
+      "baseText": "dust overlay",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-soft-light",
+      "baseText": "soft light overlay",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-diffusion-filter",
+      "baseText": "diffusion filter effect",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-dreamy-blur",
+      "baseText": "dreamy blur",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-soft-focus-glow",
+      "baseText": "soft focus glow",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-chromatic-glow",
+      "baseText": "chromatic glow",
+      "semanticPriority": 67,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-highlight-bloom",
+      "baseText": "highlight bloom",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:atmospheric-ambient-light",
+      "baseText": "ambient light wash",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-film-grain",
+      "baseText": "film grain",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-fine-film-grain",
+      "baseText": "fine film grain",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-coarse-film-grain",
+      "baseText": "coarse film grain",
+      "semanticPriority": 58,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-analog",
+      "baseText": "analog texture",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-digital-clean",
+      "baseText": "digital clean texture",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-vintage-film",
+      "baseText": "vintage film texture",
+      "semanticPriority": 59,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-35mm",
+      "baseText": "35mm film texture",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-16mm",
+      "baseText": "16mm film texture",
+      "semanticPriority": 58,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-cinematic-film",
+      "baseText": "cinematic film texture",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-digital-noise",
+      "baseText": "digital noise texture",
+      "semanticPriority": 55,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-sensor-noise",
+      "baseText": "sensor noise texture",
+      "semanticPriority": 56,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-overlay",
+      "baseText": "texture overlay",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-matte",
+      "baseText": "matte texture",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-glossy",
+      "baseText": "glossy texture",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-plastic-digital",
+      "baseText": "plastic digital texture",
+      "semanticPriority": 57,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-organic-film",
+      "baseText": "organic film texture",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-soft-digital",
+      "baseText": "soft digital texture",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-harsh-digital",
+      "baseText": "harsh digital texture",
+      "semanticPriority": 54,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-compression",
+      "baseText": "compression texture",
+      "semanticPriority": 53,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:texture-clean-modern",
+      "baseText": "clean modern digital texture",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-chromatic-aberration",
+      "baseText": "chromatic aberration",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-lens-distortion",
+      "baseText": "lens distortion",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-barrel-distortion",
+      "baseText": "barrel distortion",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-pincushion-distortion",
+      "baseText": "pincushion distortion",
+      "semanticPriority": 62,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-vignette",
+      "baseText": "vignette",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-bloom",
+      "baseText": "bloom",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-glare",
+      "baseText": "glare",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-light-streaks",
+      "baseText": "light streaks",
+      "semanticPriority": 67,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-lens-flare-overlay",
+      "baseText": "lens flare overlay",
+      "semanticPriority": 68,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-soft-focus",
+      "baseText": "soft focus",
+      "semanticPriority": 60,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-diffusion-filter",
+      "baseText": "diffusion filter effect",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-prismatic-color",
+      "baseText": "prismatic color shift",
+      "semanticPriority": 69,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-glow-highlights",
+      "baseText": "glow highlights",
+      "semanticPriority": 70,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-halo",
+      "baseText": "halo effect",
+      "semanticPriority": 71,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-bokeh-overlay",
+      "baseText": "bokeh overlay",
+      "semanticPriority": 72,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-double-vision",
+      "baseText": "double vision effect",
+      "semanticPriority": 61,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-radial-blur",
+      "baseText": "radial blur",
+      "semanticPriority": 65,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-zoom-blur",
+      "baseText": "zoom blur",
+      "semanticPriority": 64,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-motion-blur-overlay",
+      "baseText": "motion blur overlay",
+      "semanticPriority": 63,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:optical-warping",
+      "baseText": "optical warping",
+      "semanticPriority": 66,
+      "isNegative": false,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:overprocessed",
+      "baseText": "overprocessed",
+      "semanticPriority": 120,
+      "isNegative": true,
+      "conflictsWith": []
+    },
+    {
+      "id": "post-processing:color-banding",
+      "baseText": "color banding",
+      "semanticPriority": 120,
+      "isNegative": true,
+      "conflictsWith": []
+    }
+  ]
+}
+
